@@ -1,1 +1,68 @@
 /* Add CSS styling here */
+a:hover {
+    background-color: grey;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+h1{
+    font-size: 35px;
+}
+links a{
+    background-color: white;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.main a:hover {
+    background-color: grey;
+}
+
+.main a{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.image-button {
+ background-image: url("https://picsum.photos/900/600");
+ background-repeat: no-repeat;
+ background-size: cover;
+ color: white;
+ font-size: large;
+ width: 600px;
+ height: 400px;
+ 
+}
+
+footer{
+    background-color: lightgrey;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.port-ele{
+    text-align: center;
+}
