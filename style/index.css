@@ -1,4 +1,5 @@
 /* Add CSS styling here */
+
 a:hover {
     background-color: grey;
 }
@@ -60,9 +61,37 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 20px;
+}
+.row div {
+    width: 30%;
+    margin:2% 0 ;
 }
 
 .port-ele{
     text-align: center;
+}
+
+@media(max-width: 800px){
+
+}
+@media(max-width: 500px){
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    links{
+        display: flex;
+        flex-direction: column;
+    }
+    links a{
+        padding: 10px 30px;
+    }
+    .image-button{
+        margin: 10px auto;
+    }
+    .row div {
+    width: 50%;
+    margin: auto;
+    }
 }
